@@ -1,0 +1,34 @@
+:root {
+  --primary: #933393;
+  --white: white;
+  --dark-magenta: #732873;
+  --orange: #f99d1c;
+  --dark-orange: #f28820;
+  --e0e0e0: #e0e0e0;
+  --solid-black: #121212;
+  --black: #333;
+  --696969: dimgrey;
+  --white-2: #fafafa;
+  --primary-hover: #77287d;
+  --primary-pressed: #4a194a;
+  --393939: #393939;
+  --lavender-blush: #fff4ff;
+  --grayscale--50: #c2c2c2;
+  --light-purple: #e9d6e9;
+  --primary-magenta60: #915d90;
+  --corporate--main: #411793;
+  --grayscale--40: #e0e0e0;
+  --secondary--background: #fff6ec;
+  --corporate--background: #f9f0ff;
+  --secondary--main: var(--orange);
+  --secondary--hover: #f18720;
+  --corporate--pressed: #22045c;
+  --corporate--border: #7143bc;
+  --secondary--border: #fddeb3;
+  --corporate--focused: #f0d9ff;
+  --grayscale--20: whitesmoke;
+}
+
+h1 {
+  color: var(--primary);
+}
