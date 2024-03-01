@@ -105,6 +105,12 @@ body {
   line-height: 22px;
 }
 
+.course_button:hover {
+  border: 2px solid #f89c1b;
+  background: #f89c1b;
+  color: #000;
+}
+
 .course_button_active {
   border: 2px solid #f89c1b;
   background: #f89c1b;
@@ -264,7 +270,6 @@ img {
 }
 
 .pembicara-ahli__name {
-  color: var(--solid-black);
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 700;
@@ -286,6 +291,13 @@ img {
 .kampus_partner_card {
   width: 200px !important;
 }
+
+.kampus_partner_card .card:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+
 
 .jelajahi_course_carousel .owl-stage-outer .owl-stage {
   display: flex;
