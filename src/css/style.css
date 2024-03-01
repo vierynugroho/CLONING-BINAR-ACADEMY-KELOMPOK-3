@@ -512,6 +512,340 @@ img {
 /* [END] MENGAJAR DI BINAR */
 
 /* [START] BERITA PILIHAN KAMI */
+.page-home-news-section {
+  background-color: var(--white);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.home-container-news {
+  z-index: 2;
+  width: 90%;
+  max-width: 1110px;
+  position: relative;
+}
+
+.home-container-news.w-container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  display: flex;
+}
+
+.home-div-news {
+  width: 100%;
+  object-fit: fill;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  display: flex;
+  position: static;
+}
+
+.home-div-news.center {
+  flex-flow: column;
+  flex: 0 auto;
+  order: 0;
+  align-content: center;
+  justify-content: flex-start;
+  align-self: auto;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  display: flex;
+}
+
+.page-home-news-heading {
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.page-home-news-sub-heading {
+  color: var(--696969);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.w-slider {
+  height: 300px;
+  text-align: center;
+  clear: both;
+  -webkit-tap-highlight-color: transparent;
+  /* tap-highlight-color: transparent; */
+  background: #ddd;
+  position: relative;
+}
+
+.home-slider-news {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.home-slider-news.news {
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+
+.w-slider-mask {
+  z-index: 1;
+  height: 100%;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.w-slide {
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+}
+
+.div-block-14 {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 96px;
+  padding-right: 96px;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.image-9 {
+  z-index: 2;
+  width: 350px;
+  height: 200px;
+  min-height: 200px;
+  min-width: 350px;
+  object-fit: cover;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 8px;
+  position: relative;
+}
+
+.page-home-news-content {
+  z-index: 1;
+  width: 635px;
+  height: 100%;
+  min-width: 635px;
+  border: 2px solid rgba(51, 51, 51, 0);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 30px 0 100px;
+  display: flex;
+  position: relative;
+  right: 60px;
+}
+
+.page-home-news-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.page-home-news-description {
+  color: var(--696969);
+  margin-bottom: 44px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.page-home-news-link {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.div-block-14 {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 96px;
+  padding-right: 96px;
+  display: flex;
+}
+
+.w-slider-aria-label {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.w-slider-arrow-left,
+.w-slider-arrow-right {
+  width: 80px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+  /* tap-highlight-color: transparent; */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: auto;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.w-slider-arrow-left {
+  z-index: 3;
+  right: auto;
+}
+
+.left-arrow-2 {
+  color: var(--primary);
+  display: flex;
+}
+
+slider-arrow-right {
+  width: 80px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+  /* tap-highlight-color: transparent; */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: auto;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.w-slider-arrow-right {
+  z-index: 4;
+  left: auto;
+}
+
+.right-arrow-2 {
+  color: var(--primary);
+  display: flex;
+}
+
+.page-home-news-arrow-right {
+  transform: rotate(180deg);
+}
+
+.w-slider-nav {
+  z-index: 2;
+  height: 40px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  /* tap-highlight-color: transparent; */
+  margin: auto;
+  padding-top: 10px;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.w-slider-nav-invert {
+  color: #fff;
+}
+
+.page-home-news-slide-nav {
+  font-size: 10px;
+  top: auto;
+  bottom: -20%;
+  left: 0%;
+  right: 0%;
+}
+
+.w-slider-dot {
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0 3px 0.5em;
+  transition: background-color 0.1s, color 0.1s;
+  display: inline-block;
+  position: relative;
+}
+
+.w-slider-nav-invert>div {
+  background-color: rgba(34, 34, 34, 0.4);
+}
+
+.w-slider-dot.w-active {
+  background-color: #fff;
+}
+
+.page-home-news-slide-nav .w-slider-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #c26d19;
+}
+
+.page-home-news-slide-nav .w-slider-dot {
+  background-color: #e0e0e0;
+}
+
+.w-slider-nav.w-round>div {
+  border-radius: 100%;
+}
+
+.w-slider-nav-invert>div.w-active {
+  background-color: #222;
+}
+
+.page-home-news-slide-nav .w-slider-dot.w-active {
+  background-color: #933393;
+}
 
 /* [END] BERITA PILIHAN KAMI */
 
@@ -521,7 +855,7 @@ img {
   background-color: var(--white);
   color: var(--primary);
   object-fit: fill;
-  padding-top: 64px;
+  padding-top: 0;
   padding-bottom: 32px;
   position: relative;
 }
