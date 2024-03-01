@@ -68,6 +68,15 @@
   color: #000;
 }
 
+.owl-item.active {
+  width: auto !important;
+}
+
+.owl-prev.disabled,
+.owl-next.disabled {
+  display: none !important;
+}
+
 /* card body */
 .card {
   height: 100%;
