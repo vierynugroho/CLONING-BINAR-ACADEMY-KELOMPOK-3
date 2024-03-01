@@ -240,6 +240,76 @@ body {
 
 /* [END - JELAJAHI KURSUS] */
 
+/* [start-metode belajar] */
+.section-purple{
+  background-color:#77287d;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+ }
+
+ .table {
+  background-color:transparent; 
+ }
+
+ .baris {
+  background-color: transparent;
+ }
+ /* [END - metode belajar] */
+
+ /* start jangkauan */
+.section-jangkauan {
+  background-color: white;
+  align-items: center;
+  flex-direction:column;
+  display:flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-jangkauan{
+  color :#77287d
+}
+
+#text-map{
+  align-items: stretch;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 0;
+  display: flex;
+}
+.page-home-map-text{
+  color:#f99d1c;
+  margin-right:16px;
+  font-size:55px;
+  font-weight :700;
+  line-height:48px;
+}
+
+.page-home-map-text-desktop {
+ max-width:227px;  
+}
+
+ /* end jangkauan */
+
+ /* start sertif */
+ #teks-sertif {
+  color: #77287d;
+  font-size: 36px;
+  line-height:54px;
+ }
+
+ #btn-sertif{
+  color:#77287d;
+  background-color: transparent;
+ }
+ /* end sertif */
+
 /* [START - KAMPUS PARTNER] */
 .symbol-campus-logo-image {
   text-align: left;
