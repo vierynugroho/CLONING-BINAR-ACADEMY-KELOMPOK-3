@@ -483,7 +483,7 @@ img {
 
 .w-slider {
   height: 300px;
-  text-align: center;
+  text-align: start;
   clear: both;
   -webkit-tap-highlight-color: transparent;
   /* tap-highlight-color: transparent; */
@@ -530,6 +530,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
   padding-left: 96px;
   padding-right: 96px;
   display: flex;
