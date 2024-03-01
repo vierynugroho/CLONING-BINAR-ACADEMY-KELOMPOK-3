@@ -111,13 +111,21 @@ body {
   color: #000;
 }
 
+.owl-item.active {
+  width: auto !important;
+}
+
+.owl-prev.disabled,
+.owl-next.disabled {
+  display: none !important;
+}
+
 /* card body */
 .card {
   height: 100%;
 }
 
-#jelajahi-course-body-card-card-course__course-header
-  img {
+#jelajahi-course-body-card-card-course__course-header img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -347,6 +355,7 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+
 /* [END] BINAR UNTUK CORPORATE */
 
 /* [START] MENGAJAR DI BINAR */
@@ -499,6 +508,7 @@ img {
   transition: all 0.2s;
   display: inline-block;
 }
+
 /* [END] PUNYA PERTANYAAN LEBIH LANJUT */
 
 /* [START] FOOTER */
@@ -783,11 +793,9 @@ a {
 .grid-sosmed-mobile {
   width: 100%;
   grid-template:
-    "Area Area-2 Area-3 Area-4 Area-5" 3fr/1fr minmax(
-      50px,
+    "Area Area-2 Area-3 Area-4 Area-5" 3fr/1fr minmax(50px,
       50px
-    )
-    minmax(50px, 50px) minmax(50px, 50px) minmax(50px, 50px);
+    ) minmax(50px, 50px) minmax(50px, 50px) minmax(50px, 50px);
   grid-auto-flow: column;
   display: none;
 }
@@ -815,4 +823,5 @@ a {
 .sdg-logo {
   width: 200px;
 }
+
 /* [END] FOOTER */
