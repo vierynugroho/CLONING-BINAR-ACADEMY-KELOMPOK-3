@@ -105,6 +105,12 @@ body {
   line-height: 22px;
 }
 
+.course_button:hover {
+  border: 2px solid #f89c1b;
+  background: #f89c1b;
+  color: #000;
+}
+
 .course_button_active {
   border: 2px solid #f89c1b;
   background: #f89c1b;
@@ -120,13 +126,16 @@ body {
   display: none !important;
 }
 
+#jelajahi-course-body__card {
+  margin-top: -30px;
+}
+
 /* card body */
 .card {
   height: 100%;
 }
 
-#jelajahi-course-body-card-card-course__course-header
-  img {
+#jelajahi-course-body-card-card-course__course-header img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -223,13 +232,112 @@ body {
   top: 0%;
   bottom: 0%;
   left: auto;
-  left: 0%;
+  left: -1%;
   transform: translate(50%);
   transform: rotate(180deg);
   box-shadow: 0 -1px 10px 1px rgba(0, 0, 0, 0.25);
 }
 
 /* [END - JELAJAHI KURSUS] */
+
+/* [START - KAMPUS PARTNER] */
+.symbol-campus-logo-image {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.kampus-parter__heading,
+.pembicara-ahli__heading {
+  font-size: 36px;
+}
+
+.pembicara-ahli__sub-heading {
+  color: var(--696969);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pembicara-ahli__name {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.description-job,
+.description-company {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+.owl-item,
+.owl-item.active {
+  width: auto !important;
+}
+
+.kampus_partner_card {
+  width: 200px !important;
+}
+
+.kampus_partner_card .card:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+
+
+.jelajahi_course_carousel .owl-stage-outer .owl-stage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -5px;
+}
+
+.owl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal */
+.symbol-speaker-popup-close {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-pembicara-ahli__name {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modal-pembicara-ahli__job {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.symbol-speaker-popup-linkedin {
+  width: 24px;
+  height: 24px;
+}
+
+/* Modal */
+
+
+/* [END - KAMPUS PARTNER] */
 
 /* [START] BINAR UNTUK CORPORATE */
 .page-home-corporate-section.purple {
@@ -722,7 +830,7 @@ slider-arrow-right {
   position: relative;
 }
 
-.w-slider-nav-invert > div {
+.w-slider-nav-invert>div {
   background-color: rgba(34, 34, 34, 0.4);
 }
 
@@ -740,11 +848,11 @@ slider-arrow-right {
   background-color: #e0e0e0;
 }
 
-.w-slider-nav.w-round > div {
+.w-slider-nav.w-round>div {
   border-radius: 100%;
 }
 
-.w-slider-nav-invert > div.w-active {
+.w-slider-nav-invert>div.w-active {
   background-color: #222;
 }
 
@@ -1129,11 +1237,9 @@ a {
 .grid-sosmed-mobile {
   width: 100%;
   grid-template:
-    "Area Area-2 Area-3 Area-4 Area-5" 3fr/1fr minmax(
-      50px,
+    "Area Area-2 Area-3 Area-4 Area-5" 3fr/1fr minmax(50px,
       50px
-    )
-    minmax(50px, 50px) minmax(50px, 50px) minmax(50px, 50px);
+    ) minmax(50px, 50px) minmax(50px, 50px) minmax(50px, 50px);
   grid-auto-flow: column;
   display: none;
 }
